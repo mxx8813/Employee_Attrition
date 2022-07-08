@@ -10,8 +10,8 @@ Employee retention is one of the most important factors that drives a company's 
 
 Identify the factors that are driving employee attrition and using these insights to predict who are at risk of leaving the company.
 
-## Reason
-
+## Reason We Chose This Topic
+Attrition is very relevant and relatable to most of us because we've all had jobs that we've left - for various reasons.   Each company is its own ecosystem made up of intricate factors that then make up its unique culture.  For this particular project, we will examine what is driving IBM employees to leave, use the data to inform the areas the company need to assess and improve and also be able to accurately predict who are at risk of leaving based on the machine learning model we've created.
 
 ## Team Members:
 
