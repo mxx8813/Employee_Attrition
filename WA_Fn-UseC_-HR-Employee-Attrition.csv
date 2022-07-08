@@ -1,6 +1,6 @@
 ﻿Column Name,Keep / Drop,Notes
 Age,Keep ,
-Attrition,Keep - convert to 1 and 0,Covert to 0 and 1
+Attrition,Keep ,Covert to 0 and 1
 BusinessTravel,Drop,
 DailyRate,Drop,
 Department,Keep ,
@@ -10,13 +10,13 @@ EducationField,Drop,
 EmployeeCount,Drop,
 EmployeeNumber,Drop,
 EnvironmentSatisfaction,Drop,
-Gender,Keep - convert to 1 and 0,Covert to 0 and 1
+Gender,Keep ,Covert to 0 and 1
 HourlyRate,Keep,
 JobInvolvement,Drop,
 JobLevel,Keep,
 JobRole,Drop,
 JobSatisfaction,Drop,
-MaritalStatus,"Keep - convert to 0, 1, and 2","Convert to 0, 1, and 2"
+MaritalStatus,Keep ,"Convert to 0, 1, and 2"
 MonthlyIncome,Drop,
 MonthlyRate,Drop,
 NumCompaniesWorked,Keep,
@@ -28,7 +28,7 @@ RelationshipSatisfaction,Drop,
 StandardHours,Drop,
 StockOptionLevel,Keep,
 TotalWorkingYears,Keep,
-TrainingTimesLastYear,Keep???,TBD whether to keep
+TrainingTimesLastYear,Keep ,TBD whether to keep
 WorkLifeBalance,Keep,
 YearsAtCompany,Keep,
 YearsInCurrentRole,Keep,
