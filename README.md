@@ -1,22 +1,17 @@
-# Employee_Attrition Group Project
 
 ![](images/employee.png)
 
 ## Project overview
 
-Employee attrition is one of important  for the company's competitive advantage. As we know, attrition of employees cannot be avoided but there have several reasons for employee attrition. Our group will doing the data analysis with IBM HR Analytics Employee Attrition & Performance dataset to better help company understand and how to do on the interventions. It will be most effective in reducing unwanted attrition.
+Employee retention is one of the most important factors that drives a company's competitive advantage. Conversly, employee attrition, particularly abnormal trends, impacts the company's bottom line.  As we know, attrition of employees cannot be avoided but there have several reasons for employee attrition. Our group will doing the data analysis using IBM HR Analytics Employee Attrition & Performance dataset to better help company understand and how to do on the interventions. It will be most effective in reducing unwanted attrition.
     
     
 ## Topic for project
 
-1. identify why employee voluntarily leave?
-2. 
-3. 
-4. What might prevent employee from leaving?
-5. How we can use the data to predict attrition risk?
+Identify the factors that are driving employee attrition and using these insights to predict who are at risk of leaving the company.
 
-## Reason
-
+## Reason We Chose This Topic
+Attrition is very relevant and relatable to most of us because we've all had jobs that we've left - for various reasons.   Each company is its own ecosystem made up of intricate factors that then make up its unique culture.  For this particular project, we will examine what is driving IBM employees to leave, use the data to inform the areas the company need to assess and improve and also be able to accurately predict who are at risk of leaving based on the machine learning model we've created.
 
 ## Team Members:
 
@@ -30,17 +25,15 @@ Employee attrition is one of important  for the company's competitive advantage.
 
 
 
-    
-    
-## Database
 ### Data resource:
    - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
    - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Results
-
+TBD
 
 ## Summary
+TBD
 
 ## Google Slides Link
 [Click here]() to see the slide
@@ -48,3 +41,4 @@ Employee attrition is one of important  for the company's competitive advantage.
 [Click here]() to see the interactive dashboard in Tableau
 
 ## Recommendations for Employers
+>>>>>>> Stashed changes
