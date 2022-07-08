@@ -1,36 +1,36 @@
-﻿Column Name,Notes
-Age,Keep 
-Attrition,Keep - convert to 1 and 0
-BusinessTravel,Drop
-DailyRate,Drop
-Department,Keep 
-DistanceFromHome,Drop
-Education,Drop
-EducationField,Drop
-EmployeeCount,Drop
-EmployeeNumber,Drop
-EnvironmentSatisfaction,Drop
-Gender,Keep - convert to 1 and 0
-HourlyRate,Keep
-JobInvolvement,Drop
-JobLevel,Keep
-JobRole,Drop
-JobSatisfaction,Drop
-MaritalStatus,"Keep - convert to 0, 1, and 2"
-MonthlyIncome,Drop
-MonthlyRate,Drop
-NumCompaniesWorked,Keep
-Over18,Drop
-OverTime,Drop
-PercentSalaryHike,Keep
-PerformanceRating,Keep
-RelationshipSatisfaction,Drop
-StandardHours,Drop
-StockOptionLevel,Keep
-TotalWorkingYears,Keep
-TrainingTimesLastYear,Keep???
-WorkLifeBalance,Keep
-YearsAtCompany,Keep
-YearsInCurrentRole,Keep
-YearsSinceLastPromotion,Keep
-YearsWithCurrManager,Drop
+﻿Column Name,Keep / Drop,
+Age,Keep ,
+Attrition,Keep - convert to 1 and 0,Keep - convert to 1 and 0
+BusinessTravel,Drop,
+DailyRate,Drop,
+Department,Keep ,
+DistanceFromHome,Drop,
+Education,Drop,
+EducationField,Drop,
+EmployeeCount,Drop,
+EmployeeNumber,Drop,
+EnvironmentSatisfaction,Drop,
+Gender,Keep - convert to 1 and 0,Keep - convert to 1 and 0
+HourlyRate,Keep,
+JobInvolvement,Drop,
+JobLevel,Keep,
+JobRole,Drop,
+JobSatisfaction,Drop,
+MaritalStatus,"Keep - convert to 0, 1, and 2","Keep - convert to 0, 1, and 2"
+MonthlyIncome,Drop,
+MonthlyRate,Drop,
+NumCompaniesWorked,Keep,
+Over18,Drop,
+OverTime,Drop,
+PercentSalaryHike,Keep,
+PerformanceRating,Keep,
+RelationshipSatisfaction,Drop,
+StandardHours,Drop,
+StockOptionLevel,Keep,
+TotalWorkingYears,Keep,
+TrainingTimesLastYear,Keep???,Keep???
+WorkLifeBalance,Keep,
+YearsAtCompany,Keep,
+YearsInCurrentRole,Keep,
+YearsSinceLastPromotion,Keep,
+YearsWithCurrManager,Drop,
