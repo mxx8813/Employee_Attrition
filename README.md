@@ -1,6 +1,4 @@
 
-<<<<<<< Updated upstream
-=======
 ![](images/employee.png)
 
 ## Project overview
@@ -10,11 +8,7 @@ Employee retention is one of the most important factors that drives a company's 
     
 ## Topic for project
 
-1. identify why employee voluntarily leave?
-2. 
-3. 
-4. What might prevent employee from leaving?
-5. How we can use the data to predict attrition risk?
+Identify the factors that are driving employee attrition and using these insights to predict who are at risk of leaving the company.
 
 ## Reason
 
