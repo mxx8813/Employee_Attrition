@@ -36,18 +36,20 @@ Attrition is very relevant and relatable to most of us because we've all had job
 
 ## Project Details
 Communication protocols
-   The team spends the class time discussing the project details and task assignments and spends the class time working on the tasks live, virtually, in case any teammate needs any support from the team. 
+   The team will be spending the class time discussing the project details and task assignments and spending the time working together virtually, in case any teammate needs any support from the team. 
 
-   Outside of class time, the team has also formed a private Slack channel for updates and questions. 
+   Outside of class time, the team has formed a private Slack channel communication. 
 
    If needed, the team will also be setting up a time to meet outside of class hours. 
 
+
 Preliminary feature engineering and preliminary feature selection, including the decision-making process
-   The team has reviewed raw data by discussing which columns to keep and drop, and which data types would need to be transformed. 
+   The team has reviewed the raw data by reviewing and discussing which data columns should keep and drop, and which data types would need to be transformed. 
 
    Columns there are being dropped are data that are not the driving factors of the attrition. For example, employee count, employee number, and over18. 
 
    There are data in string format that need to be converted into integral for machine learning use. Such as data in the attrition column (converting yes and no to 0 and 1), gender (converting male and female to 0 and 1), and marital status (converting single, married, and divorced to 0, 1, and 2)
+
 
 ​​Description of how data was split into training and testing sets
 
@@ -58,7 +60,7 @@ Preliminary feature engineering and preliminary feature selection, including the
 TBD
 
 ## Google Slides Link
-[Click here]() to see the slide
+[Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_1_0) to see the slide
 ## Tableau Dashboard
 [Click here]() to see the interactive dashboard in Tableau
 
