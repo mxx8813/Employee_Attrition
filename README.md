@@ -61,6 +61,9 @@ Data exploration phase
 Analysis phase
    Given that the team is still working on cleaning and extracting data. The analysis phase will be entered, once the data is ready to be used for machine learning. 
 
+Below is an overview of the projet phases
+![image](https://github.com/mxx8813/Employee_Attrition/blob/main/images/Project%20Phases.png)
+
 ## Results
 
 
