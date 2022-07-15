@@ -1,4 +1,4 @@
--- Create the main table
+-- Create the main table from Kaggle
 CREATE TABLE employees (
 	age INT Not NULL,
 	attrition VARCHAR NOT NULL,
