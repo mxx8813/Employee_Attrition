@@ -35,23 +35,31 @@ Attrition is very relevant and relatable to most of us because we've all had job
    - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Project Details
-Communication protocols
-   The team will be spending the class time discussing the project details and task assignments and spending the time working together virtually, in case any teammate needs any support from the team. 
-
-   Outside of class time, the team has formed a private Slack channel communication. 
-
-   If needed, the team will also be setting up a time to meet outside of class hours. 
-
-
-Preliminary feature engineering and preliminary feature selection, including the decision-making process
+Preliminary data preprocessing
    The team has reviewed the raw data by reviewing and discussing which data columns should keep and drop, and which data types would need to be transformed. 
 
-   Columns there are being dropped are data that are not the driving factors of the attrition. For example, employee count, employee number, and over18. 
+   Columns there are being dropped are data that are not the driving factors of the attrition. For example, the employee count and over18 columns. 
 
    There are data in string format that need to be converted into integral for machine learning use. Such as data in the attrition column (converting yes and no to 0 and 1), gender (converting male and female to 0 and 1), and marital status (converting single, married, and divorced to 0, 1, and 2)
 
+Preliminary feature engineering and selection
+   The team will be using SQL Lite to pull the raw data creating tables for our machine learning use. 
 
-​​Description of how data was split into training and testing sets
+   In order to use the best model for the analysis, the team will be testing out all six models.
+      Logistic Regression 
+      Basic Neural Network
+      Support Vector Machine
+      Deep Learning Model
+      Random Forest 
+      Deep Learning Model
+
+	After the results are pulled, the team will use Tabealue to visualize the data. 
+
+Data exploration phase
+   The team is in the progress of cleaning and extracting the data. the team will enter the data exploration phase after the data is ready to be reviewed. 
+
+Analysis phase
+   Given that the team is still working on cleaning and extracting data. The analysis phase will be entered, once the data is ready to be used for machine learning. 
 
 ## Results
 
@@ -60,7 +68,7 @@ Preliminary feature engineering and preliminary feature selection, including the
 TBD
 
 ## Google Slides Link
-[Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_1_0) to see the slide
+[Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit?usp=sharing) to see the slide
 ## Tableau Dashboard
 [Click here]() to see the interactive dashboard in Tableau
 
