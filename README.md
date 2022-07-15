@@ -35,31 +35,42 @@ Attrition is very relevant and relatable to most of us because we've all had job
    - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Project Details
+Communication protocols
+   The team will leverage various communication channels to facilitate the project.
+
+   We will spend a large portion of virtual class time to plan, discuss, delegate, and support one another on task assignments and spend the time working together virtually.
+
+   Outside of dedicated class time on Tuesday and Thursday, the team will utilize a private Slack channel while working async and communicate updates, questions, etc. 
+
+   If needed, the team will also be setting up dedicated meetings outside of class hours. 
+
 Preliminary data preprocessing
-   The team has reviewed the raw data by reviewing and discussing which data columns should keep and drop, and which data types would need to be transformed. 
+   The team has reviewed and discussed each data column in the raw file, which data columns should keep and drop for the model, and which data types would need to be transformed. 
 
-   Columns there are being dropped are data that are not the driving factors of the attrition. For example, the employee count and over18 columns. 
+   Columns that were dropped are data that we anticipate are not the driving factors of the attrition and are therefore not necessary to include. For example, the employee count and over18 columns or departmentname.
 
-   There are data in string format that need to be converted into integral for machine learning use. Such as data in the attrition column (converting yes and no to 0 and 1), gender (converting male and female to 0 and 1), and marital status (converting single, married, and divorced to 0, 1, and 2)
+   We will need to transfer certain data that are currently in string format into integer for machine learning purposes. For example, “attrition” is currently yes/no and will need to be converted to 0 and 1, gender (converting male and female to 0 and 1), and marital status (converting single, married, and divorced to 0, 1, and 2).
+
 
 Preliminary feature engineering and selection
-   The team will be using SQL Lite to pull the raw data creating tables for our machine learning use. 
+   The team will be using Postgres to feed data into our machine learning models. 
 
    In order to use the best model for the analysis, the team will be testing out all six models.
-      Logistic Regression 
-      Basic Neural Network
-      Support Vector Machine
-      Deep Learning Model
-      Random Forest 
-      Deep Learning Model
+   - Logistic Regression 
+   - Basic Neural Network
+   - Support Vector Machine
+   - Deep Learning Model
+   - Random Forest 
+   - Deep Learning Model
 
-	After the results are pulled, the team will use Tabealue to visualize the data. 
+   After the results are pulled, the team will utilize Tableau to visualize the findings and insights. 
+
 
 Data exploration phase
-   The team is in the progress of cleaning and extracting the data. the team will enter the data exploration phase after the data is ready to be reviewed. 
+   The team is in the progress of cleaning and extracting the data. The team will enter the data exploration phase after the data is ready to be reviewed. 
 
 Analysis phase
-   Given that the team is still working on cleaning and extracting data. The analysis phase will be entered, once the data is ready to be used for machine learning. 
+   Given that the team is still working on cleaning and extracting data, we will begin the analysis once the data is ready to be ingested in the machine learning models. 
 
 Below is an overview of the projet phases
 ![image](https://github.com/mxx8813/Employee_Attrition/blob/main/images/Project%20Phases.png)
