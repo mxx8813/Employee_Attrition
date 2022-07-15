@@ -24,10 +24,22 @@ Attrition is very relevant and relatable to most of us because we've all had job
 - Sophia(xiaoshan) Zhou (https://github.com/JoJofia)
 
 
+### Technology and Tools
+- Jupyter Notebook to support interactive data preprocessing
+- Pandas library  for inspecting and cleaning the raw data
+- Sqlalchemy for connecting data to the ML model
+- Scikit-learn to build machine learning models
+- Tableau for analysing and visualizations
+- Google Slides  for a presentation
+
+## Project Details
+
+## Model Choice
+
 
 ### Data resource:
    - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
-   - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+   - Dataset:[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Results
 TBD
@@ -36,7 +48,7 @@ TBD
 TBD
 
 ## Google Slides Link
-[Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_0_0) to see the slide
+[Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_0_0) to review our presentation slides
 ## Tableau Dashboard
 [Click here]() to see the interactive dashboard in Tableau
 
