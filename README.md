@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-
 
 # Employee_Attrition
 
@@ -95,7 +93,6 @@ We lean away from undersampling, as the dataset we are using may not be large en
    - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
    - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
->>>>>>> Stashed changes
 ## Results
 TBD
 
@@ -108,8 +105,4 @@ TBD
 [Click here]() to see the interactive dashboard in Tableau (TBD)
 
 ## Recommendations for Employers
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
-
->>>>>>> Stashed changes
+TBD
