@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 
+=======
+# Employee_Attrition
+=======
+>>>>>>> Stashed changes
 ![](images/employee.png)
 
 ## Project overview
