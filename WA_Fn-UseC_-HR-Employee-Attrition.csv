@@ -8,7 +8,7 @@ DistanceFromHome,Drop,
 Education,Drop,
 EducationField,Drop,
 EmployeeCount,Drop,
-EmployeeNumber,Drop,
+EmployeeNumber,Keep,
 EnvironmentSatisfaction,Drop,
 Gender,Keep ,Covert to 0 and 1
 HourlyRate,Keep,
