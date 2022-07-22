@@ -55,7 +55,7 @@ Select
 	WorkLifeBalance,
 	YearsAtCompany,
 	YearsInCurrentRole,
-	YearsSinceLastPromotion,
+	YearsSinceLastPromotion
 INTO features
 from employees;
 --- Create Target table
