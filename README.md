@@ -25,12 +25,6 @@ Attrition is very relevant and relatable to most of us because we've all had job
 
 - Sophia(xiaoshan) Zhou (https://github.com/JoJofia)
 
-
-### Data resource:
-   - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
-   - Dataset:[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-
-
 ## Technology and Tools
 Jupyter Notebook to support interactive data preprocessing
 Pandas library for inspecting and cleaning the raw data
