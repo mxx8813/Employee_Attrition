@@ -80,7 +80,7 @@ The team is in the progress of cleaning and extracting the data. The team will e
 Given that the team is still working on cleaning and extracting data, we will begin the analysis once the data is ready to be ingested in the machine learning models. 
 
 Below is an overview of the projet phases
-![image](https://github.com/mxx8813/Employee_Attrition/blob/main/images/Project%20Phases.png)
+![](images/Project Phases.png)
 
 ### Model Choice
 We decided to implement supervised machine learning using a logistic regression model. This is because the scenario we are studying involves multiple independent variables, but only has binary outcomes for the dependent variable: either the employee leaves the organization, or they do not. Within the data set, this is shown through the “Attrition” column’s possible values: yes or no. This value is not continuous, so we do not use a linear regression model. The model we developed will use the available data to put each new sample into one of two classes that each correspond to one of those two outcomes. One downside that we must keep in mind when using a logistic regression model is that it may be prone to overfitting caused by having many independent variables relative to the small size of the training set.
@@ -88,23 +88,34 @@ We decided to implement supervised machine learning using a logistic regression 
 We lean away from undersampling, as the dataset we are using may not be large enough to facilitate cutting it even smaller. This makes oversampling more attractive, but we must also be wary of its inherent vulnerability to outliers causing inaccuracies in how it measures relationships between the dependent variable and the independent variables. Combination sampling would allow us to diminish the cons of using oversampling, although it also reintroduces the downsides of undersampling, which could be problematic due to the dataset’s small size. Therefore, we will likely test different sampling strategies to see how each performs in terms of accuracy and precision.
 
 ### Data resource:
-   - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
-   - Dataset:[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+   - Image: [link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
+   - Dataset: [link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-## Results
-### Logistic Regression
+## Results - six different models
+Before we start training a model, we have to partition our dataset into a training set and a test set.
+### **Logistic Regression**
+![](images/logistic_regression.png)
+- In logistic Regression models has accuracy score about 64.07%, the recall in 62% on actual attrition and 66% in non-attrition.
+For this models, there are 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+- The logistic regression model's accuracy is 64.7% and F1 Score are low is not good at classifying employee attrition.
 
-### Basic Neural Network
+### **Naive Random Oversampling**
+![](images/Naive_Random_oversampling.png)
 
-### Support Vector Machine
+### **SMOTE Oversampling**
+![](images/SMOTE_Oversampling.png)
 
-### Deep Learning Model
+### **Undersampling**
+![](images/Undersampling.png)
 
-### Random Forest
+### **Combination(Over and Under Sampling)**
+![](images/combination(over%26under).png)
 
-### Deep Learning Model
+### **Balanced Random Forest Classifiter**
+![](images/Balanced_Random.png)
 
-TBD
+### **Easy Ensmeble AdaBoost Classifer**
+![](images/Easy_ensemble.png)
 
 ## Summary
 TBD
