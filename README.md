@@ -28,7 +28,7 @@ Attrition is very relevant and relatable to most of us because we've all had job
 
 ### Data resource:
    - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
-   - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+   - Dataset:[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 
 ## Technology and Tools
@@ -92,7 +92,17 @@ We lean away from undersampling, as the dataset we are using may not be large en
    - Dataset:[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Results
-### 
+### Logistic Regression
+
+### Basic Neural Network
+
+### Support Vector Machine
+
+### Deep Learning Model
+
+### Random Forest
+
+### Deep Learning Model
 
 TBD
 
@@ -103,7 +113,7 @@ TBD
 [Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_0_0) to review our presentation slides
 
 ## Tableau Dashboard
-[Click here]() to see the interactive dashboard in Tableau (TBD)
+[Click here](https://public.tableau.com/views/EmployeeAttrition_16582829561380/ByGender?:language=en-US&:display_count=n&:origin=viz_share_link) to see the interactive dashboard in Tableau
 
 ## Recommendations for Employers
 TBD
