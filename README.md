@@ -116,14 +116,14 @@ For this models still stay on 301 non-attrition for the actual attrition and 67 
 - In Combination(Over and Under Samplings using the SMOTEENN algorithm has accuracy score is 64.39%, the recall in 75% on actual attrition and 54% in non-attrition.
 For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 27% asis low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
-### **Balanced Random Forest Classifiter**
+### **Balanced Random Forest Classifier**
 ![](images/Balanced_Random.png)
- In Balanced Random Forest Classifiter has accuracy score is 68.52%, the recall in 68% on actual attrition and 69% in non-attrition.
+ In Balanced Random Forest Classifier has accuracy score is 68.52%, the recall in 68% on actual attrition and 69% in non-attrition.
 For this models still stay on 309 non-attrition for the actual attrition and 59 actual occurrences for actual attrition. And the precision for the actual attrition is 30% that means precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
-### **Easy Ensmeble AdaBoost Classifer**
+### **Easy Ensemble AdaBoost Classifier**
 ![](images/Easy_ensemble.png)
-  In Easy Ensmeble AdaBoost Classifer has accuracy score is 67.67%, the recall in 73% on actual attrition and 62% in non-attrition.
+  In Easy Ensmeble AdaBoost Classifier has accuracy score is 67.67%, the recall in 73% on actual attrition and 62% in non-attrition.
 For this models still stay on 309 non-attrition for the actual attrition and 59 actual occurrences for actual attrition. And the precision for the actual attrition is 27% that means precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
 ## Summary
