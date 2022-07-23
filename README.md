@@ -86,7 +86,8 @@ We lean away from undersampling, as the dataset we are using may not be large en
    - Dataset: [link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Results - six different models
-Before we start training a model, we have to partition our dataset into a training set and a test set.
+Before we start training a model, we have to partition our dataset into a training set and a test set. Total attrition is 237, non-attrition is 1233
+
 ### **Logistic Regression**
 ![](images/logistic_regression.png)
 - In logistic Regression models has accuracy score about 64.07%, the recall in 62% on actual attrition and 66% in non-attrition.
@@ -95,24 +96,39 @@ For this models, there are 301 non-attrition for the actual attrition and 67 act
 
 ### **Naive Random Oversampling**
 ![](images/Naive_Random_oversampling.png)
+- In Naive Random Oversampling has accuracy score also is 64.07%, the recall percentage is 62% on actual attrition same with logistic Regression models and 66% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition same as low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+- The Naive Random Oversampling's accuracy is 64.7% and F1 Score are low is not good at classifying employee attrition
 
 ### **SMOTE Oversampling**
 ![](images/SMOTE_Oversampling.png)
+- In SMOTE Oversampling has accuracy score is 60.18%, the recall in 49% on actual attrition and 71% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 28% as low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
 ### **Undersampling**
 ![](images/Undersampling.png)
+- In Undersampling using cluster centroids algorithms has accuracy score is 56.66%, the recall in 76% on actual attrition and 37% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 21% as low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+
 
 ### **Combination(Over and Under Sampling)**
 ![](images/combination(over%26under).png)
+- In Combination(Over and Under Samplings using the SMOTEENN algorithm has accuracy score is 64.39%, the recall in 75% on actual attrition and 54% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 27% asis low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
 ### **Balanced Random Forest Classifiter**
 ![](images/Balanced_Random.png)
+ In Balanced Random Forest Classifiter has accuracy score is 68.52%, the recall in 68% on actual attrition and 69% in non-attrition.
+For this models still stay on 309 non-attrition for the actual attrition and 59 actual occurrences for actual attrition. And the precision for the actual attrition is 30% that means precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
 ### **Easy Ensmeble AdaBoost Classifer**
 ![](images/Easy_ensemble.png)
+  In Easy Ensmeble AdaBoost Classifer has accuracy score is 67.67%, the recall in 73% on actual attrition and 62% in non-attrition.
+For this models still stay on 309 non-attrition for the actual attrition and 59 actual occurrences for actual attrition. And the precision for the actual attrition is 27% that means precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
 ## Summary
-TBD
+According to 6 different kind of machine learning models and variability on the prediction that are significate to explore which option is the best way to help match with employee attrition for anaylzing the data that we have. From 6 six different model that we figure out Balanced Random Forest Classifiter is better for us to analysiz the employee attrition because the accuracy score has 68.52%
+The Balanced Random Forest Classifiter algorithm to determine this algorithm results in the best performance compared to the other sampling algorithms above.
 
 ## Google Slides Link
 [Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_0_0) to review our presentation slides
@@ -121,4 +137,4 @@ TBD
 [Click here](https://public.tableau.com/views/EmployeeAttrition_16582829561380/ByGender?:language=en-US&:display_count=n&:origin=viz_share_link) to see the interactive dashboard in Tableau
 
 ## Recommendations for Employers
-TBD
+The factors affect attrition are base age, satisfaction and metal well-being, educational factors, job relate factores, daily communication and monthly income etc. The employers can main focus on how to improve the salary rate and give a promotion to keep the emploee stay in the company.
