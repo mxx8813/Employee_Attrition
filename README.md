@@ -25,14 +25,6 @@ Attrition is very relevant and relatable to most of us because we've all had job
 
 - Sophia(xiaoshan) Zhou (https://github.com/JoJofia)
 
-<<<<<<< Updated upstream
-
-
-### Data resource:
-   - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
-   - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-
-=======
 ## Technology and Tools
 Jupyter Notebook to support interactive data preprocessing
 Pandas library for inspecting and cleaning the raw data
@@ -82,7 +74,7 @@ The team is in the progress of cleaning and extracting the data. The team will e
 Given that the team is still working on cleaning and extracting data, we will begin the analysis once the data is ready to be ingested in the machine learning models. 
 
 Below is an overview of the projet phases
-![image](https://github.com/mxx8813/Employee_Attrition/blob/main/images/Project%20Phases.png)
+![](images/Project Phases.png)
 
 ### Model Choice
 We decided to implement supervised machine learning using a logistic regression model. This is because the scenario we are studying involves multiple independent variables, but only has binary outcomes for the dependent variable: either the employee leaves the organization, or they do not. Within the data set, this is shown through the “Attrition” column’s possible values: yes or no. This value is not continuous, so we do not use a linear regression model. The model we developed will use the available data to put each new sample into one of two classes that each correspond to one of those two outcomes. One downside that we must keep in mind when using a logistic regression model is that it may be prone to overfitting caused by having many independent variables relative to the small size of the training set.
@@ -90,19 +82,59 @@ We decided to implement supervised machine learning using a logistic regression 
 We lean away from undersampling, as the dataset we are using may not be large enough to facilitate cutting it even smaller. This makes oversampling more attractive, but we must also be wary of its inherent vulnerability to outliers causing inaccuracies in how it measures relationships between the dependent variable and the independent variables. Combination sampling would allow us to diminish the cons of using oversampling, although it also reintroduces the downsides of undersampling, which could be problematic due to the dataset’s small size. Therefore, we will likely test different sampling strategies to see how each performs in terms of accuracy and precision.
 
 ### Data resource:
-   - Image:[link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
-   - Dataset[link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+   - Image: [link](https://lattice.com/library/what-is-employee-experience-vs-employee-engagement)  
+   - Dataset: [link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-## Results
-TBD
+## Results - six different models
+Before we start training a model, we have to partition our dataset into a training set and a test set. Total attrition is 237, non-attrition is 1233
+
+### **Logistic Regression**
+![](images/logistic_regression.png)
+- In logistic Regression models has accuracy score about 64.07%, the recall in 62% on actual attrition and 66% in non-attrition.
+For this models, there are 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+- The logistic regression model's accuracy is 64.7% and F1 Score are low is not good at classifying employee attrition.
+
+### **Naive Random Oversampling**
+![](images/Naive_Random_oversampling.png)
+- In Naive Random Oversampling has accuracy score also is 64.07%, the recall percentage is 62% on actual attrition same with logistic Regression models and 66% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition same as low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+- The Naive Random Oversampling's accuracy is 64.7% and F1 Score are low is not good at classifying employee attrition
+
+### **SMOTE Oversampling**
+![](images/SMOTE_Oversampling.png)
+- In SMOTE Oversampling has accuracy score is 60.18%, the recall in 49% on actual attrition and 71% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 28% as low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+
+### **Undersampling**
+![](images/Undersampling.png)
+- In Undersampling using cluster centroids algorithms has accuracy score is 56.66%, the recall in 76% on actual attrition and 37% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 21% as low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+
+
+### **Combination(Over and Under Sampling)**
+![](images/combination(over%26under).png)
+- In Combination(Over and Under Samplings using the SMOTEENN algorithm has accuracy score is 64.39%, the recall in 75% on actual attrition and 54% in non-attrition.
+For this models still stay on 301 non-attrition for the actual attrition and 67 actual occurrences for actual attrition. And the precision for the actual attrition is 27% asis low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+
+### **Balanced Random Forest Classifier**
+![](images/Balanced_Random.png)
+ In Balanced Random Forest Classifier has accuracy score is 68.52%, the recall in 68% on actual attrition and 69% in non-attrition.
+For this models still stay on 309 non-attrition for the actual attrition and 59 actual occurrences for actual attrition. And the precision for the actual attrition is 30% that means precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
+
+### **Easy Ensemble AdaBoost Classifier**
+![](images/Easy_ensemble.png)
+  In Easy Ensmeble AdaBoost Classifier has accuracy score is 67.67%, the recall in 73% on actual attrition and 62% in non-attrition.
+For this models still stay on 309 non-attrition for the actual attrition and 59 actual occurrences for actual attrition. And the precision for the actual attrition is 27% that means precision for the actual attrition is low, indicating a large number of false positives, which indicates an unreliable positive classfication.
 
 ## Summary
-TBD
+According to 6 different kind of machine learning models and variability on the prediction that are significate to explore which option is the best way to help match with employee attrition for anaylzing the data that we have. From 6 six different model that we figure out Balanced Random Forest Classifiter is better for us to analysiz the employee attrition because the accuracy score has 68.52%
+The Balanced Random Forest Classifiter algorithm to determine this algorithm results in the best performance compared to the other sampling algorithms above.
 
 ## Google Slides Link
-[Click here]() to see the slide
+[Click here](https://docs.google.com/presentation/d/1tK68lEqBwnXk-U9_hVBMxHCFWIiPoHWBg3Ww6Z6_EX8/edit#slide=id.g13cb71ee761_0_0) to review our presentation slides
+
 ## Tableau Dashboard
-[Click here]() to see the interactive dashboard in Tableau (TBD)
+[Click here](https://public.tableau.com/views/EmployeeAttrition_16582829561380/ByGender?:language=en-US&:display_count=n&:origin=viz_share_link) to see the interactive dashboard in Tableau
 
 ## Recommendations for Employers
-TBD
+The factors affect attrition are base age, satisfaction and metal well-being, educational factors, job relate factores, daily communication and monthly income etc. The employers can main focus on how to improve the salary rate and give a promotion to keep the emploee stay in the company.
