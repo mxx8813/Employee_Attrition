@@ -46,6 +46,10 @@ Outside of dedicated class time on Tuesday and Thursday, the team will utilize a
 
 If needed, the team will also be setting up dedicated meetings outside of class hours. 
 
+Below is an overview of the project phases
+<img width="820" alt="Screen Shot 2022-07-26 at 9 44 46 PM" src="https://user-images.githubusercontent.com/100495799/181142394-b180322b-be14-432c-ae37-093cd793377e.png">
+
+
 ### Preliminary feature engineering and selection
 The team will be using Postgres to feed data into our machine learning models. 
 
@@ -74,13 +78,6 @@ Columns that were dropped are data that we anticipate are not the driving factor
 
 ### Analysis phase
 Once the team competes the data cleaning and extraction phase, we will build the features and target for model to feed the model.
-
-Below is an overview of the projet phases
-![image](https://github.com/mxx8813/Employee_Attrition/blob/main/images/Project%20Phases.png)
-=======
-Below is an overview of the project phases
-<img width="820" alt="Screen Shot 2022-07-26 at 9 44 46 PM" src="https://user-images.githubusercontent.com/100495799/181142394-b180322b-be14-432c-ae37-093cd793377e.png">
-
 
 ### Model Choice
 We decided to implement supervised machine learning using a logistic regression model. This is because the scenario we are studying involves multiple independent variables, but only has binary outcomes for the dependent variable: either the employee leaves the organization, or they do not. Within the data set, this is shown through the “Attrition” column’s possible values: yes or no. This value is not continuous, so we do not use a linear regression model. The model we developed will use the available data to put each new sample into one of two classes that each correspond to one of those two outcomes. One downside that we must keep in mind when using a logistic regression model is that it may be prone to overfitting caused by having many independent variables relative to the small size of the training set.
