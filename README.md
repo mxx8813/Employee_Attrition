@@ -30,7 +30,7 @@ Attrition is very relevant and relatable to most of us because we've all had job
 ## Technology and Tools
 Jupyter Notebook to support interactive data preprocessing
 Pandas library for inspecting and cleaning the raw data
-Sqlalchemy for connecting data to the ML model
+Psycopg2 for connecting data to the ML model
 Scikit-learn to build machine learning models
 Tableau for analysing and visualizations
 Google Slides for a presentation
