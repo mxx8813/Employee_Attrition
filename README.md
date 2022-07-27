@@ -138,6 +138,7 @@ Based on testing the 6 different kind of machine learning models and variability
 We selected a set of 16 features that we feel would most likely attribute to attrition, spanning compensation, performance, development & career growth, tenure and personal attributes.
 
 The top five factors are Age, Hourly Rate, Years At Company, Total Working Years, and Percent Salary Hike.
+<img width="560" alt="Screen Shot 2022-07-26 at 9 55 56 PM" src="https://user-images.githubusercontent.com/100495799/181143681-2efb865d-df77-4c29-a0b6-e6227d2baf78.png">
 
 
 
