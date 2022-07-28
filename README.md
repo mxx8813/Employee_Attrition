@@ -69,7 +69,7 @@ The team will enter the data exploration phase after we select the data set foe 
 
 ### Preliminary data preprocessing:
   
-In this pase, the team reviewed and discussed each data column in the raw file in order to determine which data columns we will keep or drop for the machine learning model, as well as which data types will need to be transformed in order to be consumed. 
+In this phase, the team reviewed and discussed each data column in the raw file in order to determine which data columns we will keep or drop for the machine learning model, as well as which data types will need to be transformed in order to be consumed. 
 
 Columns that were dropped are data that we anticipate are not the driving factors of the attrition and are therefore not necessary to include. For example, the employee count and over18 columns or departmentname.
 
