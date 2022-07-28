@@ -54,7 +54,6 @@ Below is an overview of the project phases
 The team will be using Postgres to feed data into our machine learning models. 
 
 ### In order to use the best model for the analysis, the team will be testing out all six models.
- - Logistic Regression
  - Naive Random Oversampling
  - SMOTE Oversampling
  - Undersampling - cluster centroids algorithms
